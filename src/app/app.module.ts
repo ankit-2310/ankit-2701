@@ -8,6 +8,7 @@ import {
 } from '@angular/material'; 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatDialogModule} from '@angular/material/dialog';
+import { HttpClientModule }    from '@angular/common/http';
 
 import { AppComponent } from './app.component';
 import { DialogComponent } from './dialog/dialog.component';
@@ -23,7 +24,8 @@ import { DialogComponent } from './dialog/dialog.component';
     MatInputModule,
     MatButtonModule,
     MatTableModule,
-    MatDialogModule
+    MatDialogModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent,DialogComponent]
